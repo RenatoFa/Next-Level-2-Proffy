@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
+import './assets/styles/global.css';
+import Routes from "./routes";
 
+
+// Importação do react-router-dom para fazer a navegação
 
 function App() {
   return (
-   <h1>Hello World</h1>
+   <Routes/>
   );
 }
 
