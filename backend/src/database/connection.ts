@@ -12,3 +12,5 @@ const db = knex({
 })
 
 export default db;
+
+// As migrations = controlam a versão do banco de dados
