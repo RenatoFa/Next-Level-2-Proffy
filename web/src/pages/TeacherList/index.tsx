@@ -21,7 +21,7 @@ function TeacherList() {
 
           <form id="search-teachers">
             <div className="input-block">
-              <label htmlFor="subkect">Matéria</label>
+              <label htmlFor="subject">Matéria</label>
               <input type="text" id="subject" />
             </div>
 
