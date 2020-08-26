@@ -24,9 +24,13 @@
 // Começo do Códigp
 
 import express from "express";
+import cors from "cors";
 import routes from "./routes";
 
 const app = express();
+
+// Cors permite que o server localhost e frontend localhost sejam diferentes
+app.use(cors())
 
 // Importação dp express.json
 app.use(express.json());
